@@ -1,0 +1,41 @@
+#contact {
+
+  background: #16191C;
+  margin-top: -27px;
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FDBB59;
+    padding-top: 100px  ;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact--general {
+    display: flex;
+    justify-content: space-around;
+    &_about {
+
+      p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding: 10px;
+      }
+
+      &-cart {
+        margin-left: 100px;
+
+
+
+
+      }
+    }
+  }
+}

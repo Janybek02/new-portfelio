@@ -1,0 +1,70 @@
+#tools {
+  background: #16191C;
+
+  .tools--general {
+
+    &_taps {
+      display: flex;
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: #FFFFFF;
+      }
+      label {
+        margin: 10px;
+      }
+    }
+
+    &__block {
+
+      #front:checked ~ .ux {
+        display: none;
+      }
+
+      #ux:checked ~ .front {
+        display: none;
+      }
+
+      input {
+        display: none;
+      }
+
+      &-block1 {
+        width: 853px;
+        height: 125px;
+        background: linear-gradient(122.61deg, rgba(252, 254, 255, 0.3) 30.49%, rgba(252, 254, 255, 0.1) 74.05%);
+        backdrop-filter: blur(40px);
+        border-radius: 0 10px 10px 0;
+        display: flex;
+
+
+        &_img{
+          width: 75px;
+          height: 90px;
+          backdrop-filter: blur(20px);
+          border-radius: 14px;
+          border: 2px solid #FDBB59;
+          margin: 0 22px;
+
+
+
+
+
+          img{
+            margin: 10px 13px;
+          }
+          p{
+            font-family: 'Montserrat',sans-serif;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            margin: 0 4px;
+          }
+        }
+      }
+
+
+    }
+  }
+}

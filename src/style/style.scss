@@ -1,0 +1,29 @@
+@import "../style/header/header";
+@import "../style/hero/hero";
+@import "../style/footer/footer";
+@import "../style/about/about";
+@import "../style/services/services";
+@import "../style/consulate/consulate";
+@import "../style/portfolio/portfolio";
+@import "../style/team/team";
+@import "../style/tools/tools";
+@import "../style/contact/contact";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body,html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

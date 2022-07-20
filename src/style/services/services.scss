@@ -1,0 +1,109 @@
+#services{
+
+  background: #16191C;
+  min-height: 80vh;
+.services--general {
+
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      color: #FDBB59;
+      text-align: center;
+      padding-bottom: 90px;
+
+    }
+    &__block1{
+      position: relative;
+
+      &__block {
+        position: relative;
+        width: 264px;
+        height: 266px;
+        background: #313131;
+        border-radius: 9px;
+        z-index: 1;
+
+        h2 {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: white;
+          text-align: center;
+        }
+
+        h3 {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          margin-top: 20px;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 30px;
+          display: flex;
+          margin-left: 10px;
+          color: white;
+          text-align: left;
+
+        }
+      }
+
+      &__block:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        width: 264px;
+        height: 266px;
+        background: #ff001e;;
+        border-radius: 9px;
+        z-index: 1;
+        position: relative;
+        color: black;
+      }
+      &__bl {
+        margin: 7px;
+        width: 52px;
+        height: 52px;
+        background: #17191B;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+        border-radius: 33px;
+        border: #FFFFFF 2px solid;
+        &--imeg {
+          width: 100%;
+          background: none;
+          border-radius: 50%;
+        }
+      }
+
+    }
+
+
+    &__f1 {
+      content: '';
+      position: absolute;
+      box-sizing: border-box;
+      width: 264px;
+      height: 266px;
+      z-index: 0;
+      top: 1px;
+      right: -10px;
+      border: 1px solid #fdc959;
+      border-radius: 9px;
+    }
+
+    &__bl1 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__img {
+      position: absolute;
+      left: 0;
+    }
+  }
+
+}
